@@ -73,7 +73,7 @@ jobs:
           name: Nextjs-site
 
       - name: 🗝️ Azure Login
-        uses: azure/login@v2.2.0
+        uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
